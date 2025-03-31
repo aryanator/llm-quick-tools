@@ -1,3 +1,32 @@
+Metadata-Version: 2.4
+Name: llm-quick-tools
+Version: 0.1.1
+Summary: Prompt evaluation and mock LLM for testing
+Home-page: https://github.com/aryanator/llm-tools
+Author: Aryan
+Author-email: aryanator01@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: transformers>=4.26.0
+Requires-Dist: torch>=1.13.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # LLM Quick Tools ⚡
 
 ![PyPI](https://img.shields.io/pypi/v/llm-quick-tools)

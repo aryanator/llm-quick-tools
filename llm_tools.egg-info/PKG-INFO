@@ -1,17 +1,45 @@
-# LLM Quick Tools ⚡
+Metadata-Version: 2.4
+Name: llm-tools
+Version: 0.1.0
+Summary: Prompt evaluation and mock LLM for testing
+Home-page: https://github.com/aryanator/llm-tools
+Author: Aryan
+Author-email: aryanator01@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: transformers>=4.26.0
+Requires-Dist: torch>=1.13.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
-![PyPI](https://img.shields.io/pypi/v/llm-quick-tools)
-![Python](https://img.shields.io/pypi/pyversions/llm-quick-tools)
-![License](https://img.shields.io/github/license/aryanator/llm-quick-tools)
+# LLM Tools 🧰
 
-A lightweight dual-purpose library for:
+![PyPI](https://img.shields.io/pypi/v/llm-tools)
+![Python](https://img.shields.io/pypi/pyversions/llm-tools)
+
+A dual-purpose library for:
 1. **Prompt Evaluation** - Score and improve LLM inputs
 2. **Mock LLM** - Simulate API responses during development
 
 ## Installation
 
 ```bash
-pip install llm-quick-tools
+pip install llm-tools
 ```
 
 ---
@@ -22,7 +50,7 @@ Evaluate prompt quality across multiple dimensions.
 
 ### Quick Start
 ```python
-from llm_quick_tools import PromptEvaluator
+from llm_tools import PromptEvaluator
 
 evaluator = PromptEvaluator()
 scores = evaluator.evaluate(
@@ -58,7 +86,7 @@ Simulate LLM responses without API calls.
 
 ### Response Modes
 ```python
-from llm_quick_tools import MockLLM
+from llm_tools import MockLLM
 
 # Initialize with different modes
 echo_llm = MockLLM(mode="echo")
@@ -136,11 +164,11 @@ else:
 ---
 
 ## Contributing
-1. Fork the [repository](https://github.com/aryanator/llm-quick-tools)
+1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit changes (`git commit -m 'Add feature'`)
 4. Push (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Open a PR
 
 ---
 
