@@ -1,8 +1,8 @@
 # LLM Quick Tools ⚡
 
-![PyPI](https://img.shields.io/pypi/v/llm-quick-tools)
-![Python](https://img.shields.io/pypi/pyversions/llm-quick-tools)
-![License](https://img.shields.io/github/license/aryanator/llm-quick-tools)
+![PyPI version](https://img.shields.io/badge/pypi-v0.1.2-blue)
+![Python versions](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 [![PyPI Downloads](https://static.pepy.tech/badge/llm-quick-tools)](https://pepy.tech/projects/llm-quick-tools)
 
 A lightweight dual-purpose library for:
