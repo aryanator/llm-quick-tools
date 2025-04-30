@@ -3,6 +3,7 @@
 ![PyPI](https://img.shields.io/pypi/v/llm-quick-tools)
 ![Python](https://img.shields.io/pypi/pyversions/llm-quick-tools)
 ![License](https://img.shields.io/github/license/aryanator/llm-quick-tools)
+[![PyPI Downloads](https://static.pepy.tech/badge/llm-quick-tools)](https://pepy.tech/projects/llm-quick-tools)
 
 A lightweight dual-purpose library for:
 1. **Prompt Evaluation** - Score and improve LLM inputs
